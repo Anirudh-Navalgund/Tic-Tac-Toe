@@ -9,11 +9,12 @@ h1 {
   font-size: 45px;
 }
 hr {
-  width: 500px;
+  width: 75vw;
   height: 3px;
   background-color: white;
   margin: auto;
   margin-bottom: 10px;
+  
 }
 
 #board {
