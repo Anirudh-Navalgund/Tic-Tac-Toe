@@ -14,34 +14,37 @@ hr {
   height: 3px;
   background-color: white;
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #board {
   width: 90vw;
   max-width: 400px;
   height: 400px;
-  background-color: lavenderblush;
-  color: black;
+  color: white;
 
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
 
-  border: 5px solid lavenderblush;
-  box-shadow: 0 0px 50px 0 rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
 
 .tile {
-  width: calc(33.333% - 2px);
-  height: calc(33.333% - 2px);
-  font-size: 120px;
+  width: calc(28%);
+  height: calc(28%);
+  border: 3px solid white;
+  border-radius: 15px;
+  font-size: 110px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
+/*
 .horizontal-line {
   border-bottom: 3px solid black;
 }
@@ -49,6 +52,7 @@ hr {
 .vertical-line {
   border-right: 3px solid black;
 }
+*/
 
 .winner {
   background-color: lightgray;
@@ -60,7 +64,7 @@ hr {
   padding: 8px 12px;
   border: 1px solid black;
   border-radius: 8px;
-  background-color: lightgray;
+  background-color: white;
   cursor: pointer;
 }
 #reset:hover {
